@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(61, 76, 129);
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateY(-100%);
+    }
+    80% {
+      transform: translateY(-5%);
+    }
+  }
+
+  .head {  
+    border-radius: 20px;
+    animation: 0.4s ease-out 0.1s 1 slideInFromLeft;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    
+    padding: 12px;
+  }
+
+  a.start{
+    text-decoration: none;
+    color:rgb(175, 175, 175);
+    background-color: rgb(36, 77, 78);
+    padding: 5px;
+    border-radius: 20px 0 0 20px;
+  }
+  a.pass{
+    text-decoration: none;
+    color:rgb(175, 175, 175);
+    background-color: rgb(36, 77, 78);
+    padding: 5px;
+    border-radius: 0 0 0 0;
+  }
+  a.end{
+    text-decoration: none;
+    color:rgb(175, 175, 175);
+    background-color: rgb(36, 77, 78);
+    padding: 5px;
+    border-radius: 0 20px 20px 0;
+  }
+  a.here{
+    background-color: rgb(24, 52, 53);
+  }
