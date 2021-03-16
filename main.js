@@ -10,7 +10,7 @@ page()
 function page(){
 if (window.location.hash == "#about") {
   ba.setAttribute("style", "background-color: rgb(24, 52, 53);");
-  bc.setAttribute("style", "background-color: rgb(36, 77, 78);");
+  //bc.setAttribute("style", "background-color: rgb(36, 77, 78);");
   bp.setAttribute("style", "background-color: rgb(36, 77, 78);");
   about.style.display = "block";
   contacts.style.display = "none";
@@ -18,7 +18,7 @@ if (window.location.hash == "#about") {
 }
 
 else if (window.location.hash == "#contacts") {
-  bc.setAttribute("style", "background-color: rgb(24, 52, 53);");
+  //bc.setAttribute("style", "background-color: rgb(24, 52, 53);");
   ba.setAttribute("style", "background-color: rgb(36, 77, 78);");
   bp.setAttribute("style", "background-color: rgb(36, 77, 78);");
   about.style.display = "none";
@@ -27,7 +27,7 @@ else if (window.location.hash == "#contacts") {
 }
 else if (window.location.hash == "#projs") {
   bp.setAttribute("style", "background-color: rgb(24, 52, 53);");
-  bc.setAttribute("style", "background-color: rgb(36, 77, 78);");
+  //bc.setAttribute("style", "background-color: rgb(36, 77, 78);");
   ba.setAttribute("style", "background-color: rgb(36, 77, 78);");
   about.style.display = "none";
   contacts.style.display = "none";
