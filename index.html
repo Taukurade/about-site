@@ -4,16 +4,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
+    
     <title>Taukurade's about page</title>
 </head>
-<body>
+<body onhashchange="page()">
 
 <div class="head">
-    <a class="start here" href="">About</a>
-    <a class="pass" href="">Contacts</a>
-    <a class="end" href="">My projects</a>
+    <a id="ba"class="start about d" href="#about">About</a>
+    <a id="bc" class="pass contacts d" href="#contacts">Contacts</a>
+    <a id="bp" class="end projs d" href="#projs">My projects</a>
+</div>
+<div class="pages">
+
+<div id="about_d" class="ad x">
+<div class="card">
+    <img src="avatar.png"  style="border-radius: 500rem;width: 10em;height: 10em;vertical-align: middle;" align="left">
+    <div class="card_name">
+    <h1>Airi Taukurade</h1>
+    <a class="link_c" href="https://vk.com/taukurade" ><img src="./vk.svg" class="brnd"></a>
+    <a class="link_c" href="https://discord.gg/FwgdC4YU9Q"><img src="./ds.png" class="brnd" ></a>
+    <a class="link_c" href="https://github.com/Taukurade" ><img src="./github.png" class="brnd"></a>
+    <a class="link_c" href="https://www.reddit.com/user/Taukurade"><img src="./redd.webp" class="brnd" ></a>
+    </div>
+
+</div>
 </div>
 
+
+
+
+<div id="contacts_d" class="cd x">contacts</div>
+<div id="projs_d" class ="pd x">my projects</div>
+</div>
 </body>
+<script src="main.js"></script>
 </html>
