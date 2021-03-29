@@ -61,8 +61,8 @@ body {
     
     margin-top: 7px;
     margin-bottom: 40px;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: rgb(211, 211, 211);
     text-align: center;
     
@@ -87,6 +87,7 @@ body {
   }
   .brnd{
     border-radius: 500rem;width: 2em;height: 2em;vertical-align: middle;
+    display: inline-block;
     margin-bottom: 5px;
   }
   .link_c{
